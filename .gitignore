@@ -21,6 +21,7 @@ media
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/gradle.xml
+.idea/vcs.xml
 .idea/**/libraries
 *.iws /out/
 

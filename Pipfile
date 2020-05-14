@@ -11,6 +11,7 @@ psycopg2 = "*"
 channels = "*"
 channels-redis = "*"
 numpy = "*"
+fuzzywuzzy = "*"
 
 [requires]
 python_version = "3.7"

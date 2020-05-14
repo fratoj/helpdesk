@@ -16,3 +16,7 @@ def room(request, room_name):
         },
         'stay': safe.tolist()
     })
+
+
+def question(request):
+    return render(request, 'simple/question.html')

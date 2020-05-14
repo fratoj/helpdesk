@@ -1,0 +1,17 @@
+{% load static %}
+
+<!-- simple/templates/simple/question.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Ask your question</title>
+</head>
+<body>
+    <input id="question-input" type="text" size="100" value="What are you addicted to"><br>
+    <input id="question-submit" type="button" value="Send">
+    <div id="help-log"></div>
+
+    <script src="{% static "simple/ws_question.js" %}"></script>
+</body>
+</html>
